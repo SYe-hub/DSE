@@ -1,5 +1,15 @@
+<!--
+ * @Author: shuoye
+ * @Date: 2023-06-08 17:13:12
+ * @LastEditors: shuoye
+ * @LastEditTime: 2023-06-08 17:39:37
+ * @Description: file content
+ * Copyright 2023 shuoye, All Rights Reserved.
+-->
 # DSE
 This repository contains the code for the paper "**Discriminative Suprasphere Embedding for Fine-Grained Visual Categorization**"
+
+ <img src="./images/Demo.gif" width = "360" height = "360" alt="图片名称" margin:0 auto />
 
 ## Requirements:  
   - Install Torch with CUDA GPU     
@@ -39,4 +49,5 @@ This repository contains the code for the paper "**Discriminative Suprasphere Em
   - Place the fine-tuned model `tmp\result\cub_fine_tuned_model\model_best.t7` in `visualization\model`    
   - Run the scripts under `visualization\` in sequence according to the file name number  
   - Obtain Phase Activation Map (PAM), Class Contribution Map (CCM), Mean IoU, Discriminative localization results.  
+
   
